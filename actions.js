@@ -2,7 +2,7 @@
  * Created by youngmoon on 2/12/16.
  */
 
-export const onToggle = (index) => {
+export const toggleTodo = (index) => {
     return {
         type: 'TOGGLE_TODO',
         index
@@ -16,9 +16,9 @@ export const setVisible = (filter) => {
     };
 };
 
-export const onSubmit = (text) => {
+export const createTodo = (text) => {
     return {
-        type: 'ADD_TODO',
+        type: 'CREATE_TODO',
         text
     };
 };
