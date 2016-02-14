@@ -18,4 +18,4 @@ goto http://localhost:8080/webpack-dev-server/index.html
 
 ### License
 
-ISC
+MIT
